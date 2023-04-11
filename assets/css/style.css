@@ -1,0 +1,66 @@
+.baner {
+    display:flex;
+    background-color:rgb(47, 47, 117);
+    height:80px;
+    align-items:center;
+    justify-content:center;
+    color:white;
+}
+.btnlist{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.citybtn{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width:75%;
+}
+#main{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    background-color:gray;
+}
+#left{
+    width:10%;
+    
+}
+
+#right{
+    margin-left:35px;
+    width:90%;
+}
+
+.main-card{
+    margin-top:15px;
+    padding: 5px 0 10px 8px;
+    border:1px solid;
+}
+.days{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.day-card{
+    color:white;
+    background-color:rgb(35, 25, 72);
+    width:18%;
+}
+
+
+#citydate{
+    margin-top:5px;
+
+}
+
+.crack{
+    gap:10px;
+    display:flex;
+    flex-direction:column;
+    padding-bottom:10px;
+    border-bottom: 1px solid;
+    margin-bottom:10px;
+}
+
